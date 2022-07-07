@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4{
+	font-family: $titulosFont;
+	color: $keyColor;
+	font-weight: 400;
+}
+
+h1{
+	font-size: $textXl;
+	text-align: center;
+}
+
+h2{
+	font-size: $textLg;
+	text-align: center;
+}
+
+h3, h4{
+	font-size: $textMd;
+}
+
+body{
+	background-color: $mainColor;
+}
+
+p{
+	font-family: $mainFont;
+	font-size: $textMd;
+	color: $keyColor;
+	font-weight: 350;
+	text-align: center;
+}
+
+.bienvenidos__texto{
+	width: 80%;
+	height: auto;
+	margin: 30px auto;
+	padding: 20px 40px;
+	border: solid #A99F3C 2px;
+	overflow: auto;
+}
+
+.botonUno{
+color:$secondaryColor;
+background-color: $fondoColor;
+font-family: $mainFont;
+text-decoration: none;
+border-radius: 6px ;
+font-size: $textMd;
+}
